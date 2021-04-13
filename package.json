@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "web-ext run",
+    "build": "zip -r -FS meetsoup.zip icons/ *.js manifest.json"
+  },
+  "dependencies": {
+    "web-ext": "^6.0.0"
+  }
+}
